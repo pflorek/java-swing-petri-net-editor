@@ -1,0 +1,7 @@
+.idea/
+bin/
+docs/
+*.docx
+*.jar
+*.sublime-*
+*.zip

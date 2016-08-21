@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<pnml>
+    <net id="synthNet.pnml" type="VIPschema.xsd">
+        <toolspecific>
+            <places number="11"/>
+            <transitions number="9"/>
+        </toolspecific>
+        <name>
+            <value>/home/thomas/Dokumente/Fernuni/VipTool/viptool-6.0.3/viptool/default/FoldingOfLposToEpcs/Petrinet/nets/synthNet.pnml</value>
+        </name>
+        <transition id="viptool.petrinet.datastructure.Transition@149481994" provider="petrinet.provider.transition">
+            <name>
+                <value>get water using coffee-pot</value>
+                <graphics>
+                    <offset x="7" y="115"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="500" y="300"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition id="viptool.petrinet.datastructure.Transition@778613182" provider="petrinet.provider.transition">
+            <name>
+                <value>turn off</value>
+                <graphics>
+                    <offset x="6" y="53"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="150" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition id="viptool.petrinet.datastructure.Transition@2005703478" provider="petrinet.provider.transition">
+            <name>
+                <value>unlock</value>
+                <graphics>
+                    <offset x="6" y="50"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="350" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <place id="viptool.petrinet.datastructure.Place@1769933516" provider="petrinet.provider.place">
+            <name>
+                <value>p3</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="400" y="250"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <transition id="viptool.petrinet.datastructure.Transition@1707346828" provider="petrinet.provider.transition">
+            <name>
+                <value>empty strainer</value>
+                <graphics>
+                    <offset x="7" y="76"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="550" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition id="viptool.petrinet.datastructure.Transition@537751478" provider="petrinet.provider.transition">
+            <name>
+                <value>grind beans</value>
+                <graphics>
+                    <offset x="7" y="67"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="150" y="50"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <place id="viptool.petrinet.datastructure.Place@1691183945" provider="petrinet.provider.place">
+            <name>
+                <value>p9</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="250" y="50"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@1737219581" provider="petrinet.provider.place">
+            <name>
+                <value>p0</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="250" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <transition id="viptool.petrinet.datastructure.Transition@1668466983" provider="petrinet.provider.transition">
+            <name>
+                <value>get water using glass-pot</value>
+                <graphics>
+                    <offset x="7" y="112"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="150" y="400"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <place id="viptool.petrinet.datastructure.Place@1472025559" provider="petrinet.provider.place">
+            <name>
+                <value>p8</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="500" y="400"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@1465011225" provider="petrinet.provider.place">
+            <name>
+                <value>p7</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>1</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="350" y="300"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@1333518620" provider="petrinet.provider.place">
+            <name>
+                <value>p4</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>1</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="50" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@497410894" provider="petrinet.provider.place">
+            <name>
+                <value>p2</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="450" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@2122911943" provider="petrinet.provider.place">
+            <name>
+                <value>p6</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="850" y="100"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place id="viptool.petrinet.datastructure.Place@533503941" provider="petrinet.provider.place">
+            <name>
+                <value>p1</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="650" y="100"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <transition id="viptool.petrinet.datastructure.Transition@1683672416" provider="petrinet.provider.transition">
+            <name>
+                <value>fill strainer</value>
+                <graphics>
+                    <offset x="6" y="64"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="750" y="50"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <place id="viptool.petrinet.datastructure.Place@1112774658" provider="petrinet.provider.place">
+            <name>
+                <value>p5</value>
+                <graphics>
+                    <offset x="6" y="36"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>1</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="50" y="50"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <transition id="viptool.petrinet.datastructure.Transition@512660232" provider="petrinet.provider.transition">
+            <name>
+                <value>assemble and turn on</value>
+                <graphics>
+                    <offset x="6" y="94"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="950" y="150"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1220118032" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1472025559" target="viptool.petrinet.datastructure.Transition@512660232">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="548" y="348"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@430528997" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@778613182" target="viptool.petrinet.datastructure.Place@1737219581">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="680" y="736"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1451983473" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1691183945" target="viptool.petrinet.datastructure.Transition@1683672416">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="240" y="910"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1584140779" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@2122911943" target="viptool.petrinet.datastructure.Transition@512660232">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="419" y="604"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@212428151" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@2005703478" target="viptool.petrinet.datastructure.Place@1769933516">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="412" y="527"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@7547505" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@1707346828" target="viptool.petrinet.datastructure.Place@533503941">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="105" y="627"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@259165512" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1737219581" target="viptool.petrinet.datastructure.Transition@2005703478">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="533" y="649"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1097258707" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@1668466983" target="viptool.petrinet.datastructure.Place@1472025559">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="595" y="195"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@994043862" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1769933516" target="viptool.petrinet.datastructure.Transition@512660232">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="446" y="430"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1428645166" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@497410894" target="viptool.petrinet.datastructure.Transition@1707346828">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="197" y="562"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@586442103" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1465011225" target="viptool.petrinet.datastructure.Transition@1668466983">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="525" y="120"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@206460607" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1769933516" target="viptool.petrinet.datastructure.Transition@149481994">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="423" y="352"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1798952457" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1112774658" target="viptool.petrinet.datastructure.Transition@537751478">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="168" y="1204"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@2122048011" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1333518620" target="viptool.petrinet.datastructure.Transition@778613182">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="806" y="805"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@2145308663" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@1465011225" target="viptool.petrinet.datastructure.Transition@149481994">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="471" y="149"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1166215941" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@537751478" target="viptool.petrinet.datastructure.Place@1691183945">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="202" y="1070"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@930016431" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Place@533503941" target="viptool.petrinet.datastructure.Transition@1683672416">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="165" y="734"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1506275421" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@149481994" target="viptool.petrinet.datastructure.Place@1472025559">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="485" y="278"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1111373542" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@149481994" target="viptool.petrinet.datastructure.Place@1769933516">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="431" y="309"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@1188862395" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@2005703478" target="viptool.petrinet.datastructure.Place@497410894">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="366" y="567"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc id="viptool.petrinet.datastructure.DefaultEdge@488850902" provider="petrinet.provider.weightededge" source="viptool.petrinet.datastructure.Transition@1683672416" target="viptool.petrinet.datastructure.Place@2122911943">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="303" y="745"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="11.0" weight="2.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+    </net>
+</pnml>
